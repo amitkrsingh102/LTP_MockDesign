@@ -1,0 +1,9 @@
+.route_main {
+	font-size: 14px;
+}
+.route {
+	color: var(--button-accent-clr);
+}
+.route_bold {
+	color: black;
+}

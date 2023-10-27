@@ -1,0 +1,117 @@
+.main {
+	width: 100%;
+	height: 6.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 5rem;
+	padding-top: 2rem;
+	background-color: white;
+	box-shadow: 0px 2px 8px rgb(231, 232, 249);
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+.logo:focus-visible {
+	outline: none;
+	border: none;
+}
+
+.navigation_routes {
+	color: var(--button-accent-clr);
+	display: flex;
+	gap: 1.8rem;
+	font-weight: 500;
+}
+
+.button_spacers {
+	display: flex;
+	gap: 0.7rem;
+	font-weight: 500;
+}
+
+.search_form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form_input {
+	padding: 0.5rem;
+	outline: none;
+	border: 1px solid transparent;
+	border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.navigation_routes > div {
+	display: flex;
+	align-items: center;
+}
+.nav:hover {
+	color: black;
+	transition: 200ms ease-in-out;
+	cursor: pointer;
+}
+
+.nav:focus-visible {
+	outline: none;
+	color: black;
+	transition: 200ms ease-out;
+}
+
+.sign_in_button {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.375rem;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	font-weight: 500;
+	white-space: nowrap;
+	transition-property: color, background-color, border-color,
+		text-decoration-color, fill, stroke;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 300ms;
+	border: 2px solid transparent;
+	outline: none;
+	color: var(--button-primary-clr);
+	background-color: inherit;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	height: 2.5rem;
+}
+
+.sign_in_button:hover {
+	color: white;
+	background-color: var(--button-primary-clr);
+	cursor: pointer;
+}
+.badge {
+	width: 14px;
+	height: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	color: white;
+	background-color: var(--button-primary-clr);
+	position: absolute;
+	margin-top: -14px;
+	margin-right: -14px;
+	font-size: 8px;
+	font-weight: 500;
+}
+.badge_dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	color: var(--button-primary-clr);
+	background-color: var(--button-primary-clr);
+	position: absolute;
+	margin-top: -15px;
+	margin-right: -8px;
+	font-size: 8px;
+	font-weight: 500;
+}

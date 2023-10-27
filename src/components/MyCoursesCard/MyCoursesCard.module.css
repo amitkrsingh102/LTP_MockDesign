@@ -1,0 +1,95 @@
+.card_main {
+	max-width: 23.5rem;
+	display: flex;
+	flex-direction: column;
+	background-color: inherit;
+	overflow: hidden;
+	border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.card_main:hover {
+	cursor: pointer;
+}
+.card_main:hover .card_name > span {
+	color: var(--button-primary-clr);
+	transition: 200ms ease-in-out;
+	font-weight: 620;
+}
+
+.card_image {
+	width: 23.5rem;
+	height: 16rem;
+	position: relative;
+	border-radius: 0.25rem;
+	overflow: hidden;
+}
+.card_details {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.card_rating {
+	padding: 0.5rem;
+	font-size: 12px;
+}
+.card_type {
+	display: flex;
+	justify-content: flex-start;
+	padding: 0.75rem 0rem;
+}
+
+.card_type > span {
+	padding: 0.3rem 0.5rem;
+	color: var(--button-primary-clr);
+	background-color: var(--button-primary-outline-clr);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.15rem;
+	font-size: 12px;
+	font-weight: 600;
+}
+.card_name {
+	padding: 0.25rem;
+}
+
+.card_name > span {
+	white-space: pre-line;
+	font-weight: 600;
+}
+.card_lessons {
+	padding: 0.5rem;
+	display: flex;
+	gap: 0.5rem;
+	color: var(--button-accent-clr);
+	font-size: 12px;
+	font-weight: 100;
+}
+.card_lessons > div {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.card_lessons > div > span {
+	color: var(--button-accent-clr);
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.card_description {
+	color: var(--button-accent-clr);
+	font-size: 16px;
+	font-weight: 450;
+}
+
+.card_pricing {
+	display: flex;
+	padding: 0.25rem 0rem;
+	padding-bottom: 1rem;
+}
+
+.card_author {
+	color: var(--button-accent-clr);
+	font-size: 13px;
+	font-weight: 500;
+}

@@ -1,0 +1,105 @@
+.main {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(246, 247, 254);
+}
+
+.content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 1rem 8rem;
+	padding-bottom: 5rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.my_courses {
+	padding-top: 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.my_courses_heading {
+	padding-top: 1rem;
+	font-size: 2.5rem;
+	font-weight: 600;
+	padding-bottom: 2.5rem;
+}
+
+.my_courses_navigation {
+	padding-top: 1.5rem;
+	display: flex;
+	gap: 1rem;
+	font-weight: 500;
+}
+.my_courses_navigation > span:hover {
+	cursor: pointer;
+}
+
+.current_route {
+	color: var(--button-primary-clr);
+	padding: 1rem 2rem;
+	border-bottom: 3px solid var(--button-primary-clr);
+	transition: 300ms ease-in-out;
+}
+
+.unselected_route {
+	color: var(--button-accent-clr);
+	padding: 1rem 2rem;
+	transition: 200ms ease-in-out;
+}
+
+.my_courses_cards {
+	padding-top: 1rem;
+	display: grid;
+	gap: 1.2rem;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.recommended {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 100%;
+	min-height: 40rem;
+	padding-bottom: 18rem;
+}
+.slider {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider_main {
+	min-width: 72vw;
+	position: relative;
+	overflow: hidden;
+	scroll-behavior: smooth;
+	padding: 0rem 1rem;
+}
+.slider_container {
+	max-width: 72vw;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 0 1rem;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+.left_btn,
+.right_btn {
+	z-index: 20;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.right_btn {
+	right: 0;
+}
+.left_btn {
+	left: 0;
+}
